@@ -15,3 +15,11 @@ Git has three config files: <br>
 --local stored in .git/config for repositories
 --user stored in ~/Users/gitconfig for users
 --system stored in the OS for the entire system
+
+# Setting up a remote repo
+The steps involve ensuring that 1) you are on a branch named origin, 2) remote added the branch to the remote repo, 3) push your existing branch to the remote repo
+'git branch -M origin'
+'git remote add origin git@github.com:Davidebear/Test-Test-123.git'
+'git push -u origin origin'
+
+note the syntax of the url and -u (git push will work in the future now)
